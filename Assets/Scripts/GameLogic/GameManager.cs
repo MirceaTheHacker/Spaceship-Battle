@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
     {
         enCurrentGameState = enGameState.Playing;
         SceneManager.LoadScene("SampleScene");
+        ScoreManager.Instance.score = 0;
     }
 
     public void PauseGame()
